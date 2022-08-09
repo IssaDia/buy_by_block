@@ -5,6 +5,8 @@ import Faq from "../components/Faq/Faq";
 import SocialProof from '../components/SocialProof/SocialProof';
 import Cta from '../components/Cta/Cta';
 import Contact from '../components/Contact/Contact';
+import Social from "../components/Social/Social";
+
 
 
 
@@ -26,6 +28,7 @@ const Home = () => {
           buttonContent="Découvrez plus"
         />
         <Contact />
+        <Social />
       </>
     );
 }
